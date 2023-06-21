@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(253, 251, 251);
 }
 
 .App-link {
@@ -35,4 +35,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+body{
+  background-color: #829e9e;
+}
+.input{
+  margin-top: 200px;
+  width: 200px;
+  height: 30px;
+  position: relative;
+}
+
+.sub-btn{
+   width: 70px;
+   height: 30px;
+   position: relative;
+   border-radius: 10px;
+}
+.hrline{
+  background-color: white;
+  height: 20px;
 }
